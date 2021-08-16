@@ -3,15 +3,16 @@ import './globalStyles.css';
 import Arrecadation from './components/Arrecadation/index';
 import Product from './components/product/Product';
 import Hero from './components/hero';
-import Button from './components/UI/Button';
+import { Main } from './components/UI';
 
 function App() {
   return (
     <>
       <Hero />
-      <Product />
-      <Arrecadation />
-      <Button value="OIEEE" primary />
+      <Main>
+        <Product />
+        <Arrecadation />
+      </Main>
     </>
   );
 }

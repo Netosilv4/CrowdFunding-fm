@@ -1,7 +1,8 @@
 import React from 'react';
 import {
-  Section, H1, P, Div, Progress, DivText, Border,
+  Div, Progress, DivText, Border, H1,
 } from './styles';
+import { Section, P } from '../UI';
 
 function Arrecadation() {
   return (

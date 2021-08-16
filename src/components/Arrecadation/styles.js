@@ -1,19 +1,5 @@
 import styled from 'styled-components';
 
-export const Section = styled.section`
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-  flex-direction: column;
-  margin: 10px;
-  justify-content: space-around;
-  align-items: center;
-  background-color: white;
-  border: 1px solid black;
-  border-radius: 8px;
-  padding: 20px;
-`;
-
 export const DivText = styled.div`
 width: 100%;
 display: flex;
@@ -24,7 +10,7 @@ justify-content: center;
 
 export const Border = styled.div`
 height: 1px;
-width: 20%;
+width: 80px;
 background-color: rgba(0,0,0, 0.2);
 `;
 
