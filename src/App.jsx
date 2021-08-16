@@ -9,8 +9,8 @@ function App() {
   return (
     <>
       <Hero />
-      <Arrecadation />
       <Product />
+      <Arrecadation />
       <Button value="OIEEE" primary />
     </>
   );
