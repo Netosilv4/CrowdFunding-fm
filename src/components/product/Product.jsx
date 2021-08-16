@@ -6,7 +6,11 @@ import {
 const Product = () => (
   <Section>
     <Logo src="dale/images/logo-mastercraft.svg" alt="logo mastercraft" />
-    <H2>Mastercraft Bamboo Monitor Riser</H2>
+    <H2>
+      Mastercraft Bamboo
+      <br />
+      Monitor Riser
+    </H2>
     <P>A beautifully handcrafted monitor stand to reduce neck and eye strain.</P>
     <Div>
       <ButtonBack type="button">Back this project</ButtonBack>
