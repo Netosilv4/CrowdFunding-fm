@@ -1,9 +1,14 @@
 import React from 'react';
-import { Header, Logo } from './styles';
+import {
+  Header, Logo, HamburguerIcon, Menu,
+} from './styles';
 
 const Hero = () => (
   <Header>
-    <Logo />
+    <Menu>
+      <Logo src="/dale/images/logo.svg" />
+      <HamburguerIcon src="/dale/images/icon-hamburger.svg" />
+    </Menu>
   </Header>
 );
 
