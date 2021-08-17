@@ -12,6 +12,10 @@ export const Border = styled.div`
 height: 1px;
 width: 80px;
 background-color: rgba(0,0,0, 0.2);
+@media(min-width: 900px){
+  height: 80px;
+  width: 1px;
+}
 `;
 
 export const H1 = styled.h1`
@@ -31,6 +35,13 @@ gap: 10px;
 text-align: center;
 justify-content: space-around;
 align-items: center;
+@media(min-width: 900px){
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: space-between;
+  margin-bottom: 20px;
+}
 `;
 
 export const Progress = styled.div`
