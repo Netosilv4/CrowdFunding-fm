@@ -5,6 +5,7 @@ import Product from './components/product/Product';
 import Hero from './components/hero';
 import { Main } from './components/UI';
 import About from './components/about';
+import ProductModal from './components/productModal';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         <Arrecadation />
         <About />
       </Main>
+      <ProductModal />
     </>
   );
 }
