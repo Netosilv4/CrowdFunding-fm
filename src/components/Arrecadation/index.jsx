@@ -19,10 +19,10 @@ function Arrecadation() {
             <P>total backers</P>
           </DivText>
           <Border />
-          <div>
+          <DivText>
             <H1>56</H1>
             <P>days left</P>
-          </div>
+          </DivText>
         </Div>
         <DivText>
           <Progress><progress id="file" value="80" max="100" /></Progress>

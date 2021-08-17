@@ -12,4 +12,12 @@ export const Wrapper = styled.div`
   flex-direction: column;
   width: 100%;
   gap: 1px;
+  @media(min-width: 900px){
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    p{
+      text-align: right;
+    }
+  }
 `;
