@@ -4,6 +4,7 @@ import Arrecadation from './components/Arrecadation/index';
 import Product from './components/product/Product';
 import Hero from './components/hero';
 import { Main } from './components/UI';
+import About from './components/about';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Main>
         <Product />
         <Arrecadation />
+        <About />
       </Main>
     </>
   );
