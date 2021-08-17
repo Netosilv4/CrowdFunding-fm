@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './globalStyles.css';
 import Arrecadation from './components/Arrecadation/index';
 import Product from './components/product/Product';
@@ -8,15 +8,17 @@ import About from './components/about';
 import ProductModal from './components/productModal';
 
 function App() {
+  const [show, setShow] = useState('none');
+
   return (
     <>
       <Hero />
       <Main>
-        <Product />
+        <Product setShow={setShow} />
         <Arrecadation />
         <About />
       </Main>
-      <ProductModal />
+      <ProductModal show={show} setShow={setShow} />
     </>
   );
 }
