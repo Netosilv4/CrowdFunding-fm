@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 export const Section = styled.section`
+  opacity: ${(props) => (props.desactivate ? 0.4 : 1)};
   display: flex;
   flex-direction: column;
   margin: auto;
@@ -11,10 +12,16 @@ export const Section = styled.section`
   border-radius: 8px;
   width: 87%;
   padding: 20px 10px;
+  @media(min-width: 900px) {
+    width: 900px;
+    :nth-child( n + 4) {
+      width: 87%;
+    }
+  }
 `;
 
 export const H2 = styled.h2`
-width: 70%;
+width: 100%;
 font-size: 22px;
 font-weight: 700;
 `;
@@ -38,4 +45,8 @@ export const ButtonBack = styled.button`
   color: white;
   font-weight: 700;
   margin-right: 8px;
+  :hover{
+    cursor: pointer;
+    opacity: 0.8;
+  }
 `;
