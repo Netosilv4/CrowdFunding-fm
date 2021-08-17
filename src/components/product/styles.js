@@ -23,18 +23,18 @@ export const Div = styled.div`
 `;
 
 export const Button = styled.button`
-  width: 20%;
+  min-width: 20%;
   border: 0;
   border-radius: 100px;
   background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10px 0 0;
+  align-items: center;
   @media(min-width: 900px){
+    background-color: lightgray;
     img{
       width: 62px;
     }
-    background-color: lightgray;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 10px 0 0;
-    align-items: center;
   }
 `;
