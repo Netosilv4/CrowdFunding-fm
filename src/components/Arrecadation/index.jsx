@@ -7,7 +7,7 @@ import { Section, P } from '../UI';
 function Arrecadation() {
   return (
     <>
-      <Section>
+      <Section cardWidth="60%">
         <Div>
           <DivText>
             <H1>$80,000</H1>

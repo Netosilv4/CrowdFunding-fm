@@ -4,7 +4,7 @@ import { Section, H2, P } from '../UI';
 import RewardCard from '../rewardCards';
 
 const About = () => (
-  <Section style={{ gap: '30px', textAlign: 'left', alignItems: 'left' }}>
+  <Section cardWidth="60%" style={{ gap: '30px', textAlign: 'left', alignItems: 'left' }}>
     <H2>
       About this project
     </H2>
@@ -20,7 +20,12 @@ const About = () => (
       under the stand.
     </P>
     {
-      products.map((e) => <RewardCard product={e} desactivate={e.quantity === 0} />)
+      products.map((e) => (
+        <RewardCard
+          product={e}
+          desactivate={e.quantity === 0}
+        />
+      ))
     }
   </Section>
 );

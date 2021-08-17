@@ -13,7 +13,7 @@ export const Section = styled.section`
   width: 87%;
   padding: 20px 10px;
   @media(min-width: 900px) {
-    width: 80%;
+    width: ${(props) => props.cardWidth};
     :nth-child( n + 4) {
       width: 87%;
     }
