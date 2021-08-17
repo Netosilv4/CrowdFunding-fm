@@ -10,7 +10,7 @@ export const ModelSection = styled.section`
   left: 0;
   height: 550%;
   width: 100%;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.6);
   padding: 200px 0;
 `;
 
@@ -25,7 +25,7 @@ export const Div = styled.div`
   @media(min-width: 900px) {
     width: 70%;
   }
-  box-shadow: 1px 1px 5px black;
+  box-shadow: 1px 1px 15px black;
 `;
 
 export const ModalHead = styled.div`

@@ -8,7 +8,7 @@ import {
 } from '../UI';
 
 const Product = ({ setShow }) => (
-  <Section style={{ height: '300px', transform: 'translateY(-100px)', marginBottom: '-100px' }}>
+  <Section cardWidth="60%" style={{ height: '300px', transform: 'translateY(-100px)', marginBottom: '-100px' }}>
     <Logo src="dale/images/logo-mastercraft.svg" alt="logo mastercraft" />
     <H2>
       Mastercraft Bamboo

@@ -16,6 +16,7 @@ const RewardCard = ({
       boxShadow: '0px 0px 10px rgba(0,0,0,0.5)', textAlign: 'left', gap: '30px', padding: '30px 20px',
     }}
     desactivate={desactivate}
+    cardWidth="86%"
   >
     <Wrapper>
       <H2>{title}</H2>
