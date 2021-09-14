@@ -21,7 +21,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Design preview for the CrowdFunding landing page coding challenge](./blogrPrint.png)
+![Design preview for the CrowdFunding landing page coding challenge](./Crowfund.png)
 
 ### Links
 
